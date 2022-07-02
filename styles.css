@@ -2,20 +2,27 @@
     border-radius: 1px 1px 30px 30px;
     background-color: rgba(89, 89, 166, 1);
     height: 55px;
+    width: 100%;
     z-index: 0;
 }
 #topgraph{
-    z-index: 2;
+    display: inline;
 }
 #link:hover{
     color: blue;
 }
 #logo{
     height: 45px;
-    z-index: 1;
+    display: inline;
 }
 #logo2{
     margin-top: 8px;
     height: 20px;
+    display: inline;
+}
+#bg2{
     z-index: 1;
+    margin-top: -15px;
+    height: 700px;
+    width: 100%;
 }
