@@ -1,0 +1,17 @@
+{
+  "name": "Wolves-in-Trading-Forex-Academy-Website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:webagent-dev/Wolves-in-Trading-Forex-Academy-Website.git",
+  "author": "webagent-dev <webagent24@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-server": "^0.1.2"
+  }
+}
