@@ -55,3 +55,17 @@
     position: sticky;
     top: -20px;
 }
+#cardpara1{
+    text-align: left; 
+    padding: 50px; 
+    margin-top: -30px; 
+    font-size: larger; 
+    color: aliceblue;
+}
+#cardpara2{
+    text-align: left; 
+    padding: 50px; 
+    margin-top: -30px; 
+    font-size: larger; 
+    color: aliceblue;
+}
