@@ -1,141 +1,990 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Wolves in Trading</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="styles.css">
-  <script>
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-      return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
-    </script>
+    <meta charset="UTF-8">
+    <meta name="Portfolio content="HTML, CSS, JavaScript" >
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;1,700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+      .body{
+        background: url(background.jpg) center no-repeat;
+        background-size: cover;
+      }
+    </style>
+
 </head>
 
-<body style="background-color: black;" >
-    <div  class=" container-fluid p-1 text-white text-center text-capitalize text-small" id="top">
-      <img src="wolves images/logo.png" alt="logo" class="float-start" id="logo"> 
-      <img src="wolves images/social.png" alt="icons" class="float-end" id="logo2">  
-      <p id="topgraph" > Call Support :<code class="text-white">+2348130774481</code> or email us:<a id="link" href="https://wolesintrading@gmail.com" class="text-white">  <code id="link" class="text-white"> wolvesintrading@gmail.com </code></a>
+
+<body class="body" >
+
+  <style>
+    .heads{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      font-family:Georgia, serif;
+      font-size: 50px;
+      font-style: italic;
+    }
+  </style>
+
+  <style>
+    .subhead{
+      padding-left: 30px;
+      font-family: Georgia, serif ;
+      font-size: 30px;
+    }
+  </style>
+
+  <style>
+    .para{
+      font-family: Verdana, sans-serif ;;
+      font-size: 2vw;
+      text-transform: capitalize;
+      word-break: keep-all
+    }
+  </style>
+
+  <style>
+    #link:link{
+      color: blue;
+      text-decoration: none;
+      background-color: aqua;
+    }
+  </style>
+
+  <style>
+    #link:visited{
+      color: green;
+    }
+  </style>
+
+  <style>
+    #link:active{
+      color: hotpink;
+      cursor: pointer;
+    }
+  </style>
+
+  <style>
+    #link:hover{
+      color: rgb(255, 255, 255) ;
+      text-decoration: underline;
+      background-color: green;
+      cursor: pointer;
+    }
+  </style>
+
+  <style>
+    ol.list{
+      list-style-type: disc;
+      list-style-position: inside;
+
+    }
+  </style>
+
+  <style>
+    li.list{
+      color:rgb(51, 65, 80);;
+      background:rgb(195, 196, 250); ;
+      margin: 5px;
+      width: 70%;
+      border-radius: 10px;
+      text-align: center;
+    }
+  </style>
+
+  <div style="background-image: url('giphy.gif'); background-repeat: no-repeat; border-radius: 23px; 
+               background-size: 100% 100%; background-attachment: fixed; box-shadow: rgb(0, 0, 0) 1px 1px 3px 3px; 
+               ">
+     
+     <h1 id="home" style="font-size: 40px; text-align: center; color: rgb(255, 255, 255); 
+                border-color: blue red yellow green; border-radius: 10px; 
+                border-style: solid dotted double; border-width: 5px 7px 5px 7px; 
+                font-family: Sofia, sans-serif;
+                text-shadow: 4px 4px blue;"> 
+      &hearts;(: HELLO ZAZU, I`M PORTABLE:)&hearts; </h1> </br>
+      </h1>
+      <h1 style="font-size: 50px; text-align: center; color: rgb(255, 255, 255); margin-top: 0.5px;"> 
+        &#128525; </h1>
+        </h1>
+
+      <p style="text-align: center; align-items: center; display: flex; flex-direction: column;">
+        <img src="welcome.gif" border="0" alt="animated-welcome-image" #
+        style="width: 450px; height: 141px; align-items: center; display: flex; flex-direction: column;" />
       </p>
-    </div>
-    <div id="bg2">
-      <img class="img-fluid img-responsive text-center" src="wolves images/bg2.png" alt="backimage" style="position: sticky;">
-      <p class="text-white text-center "> <i>With Sniper Entry Trading Strategy, <br> forever stuck in profit___ </i></p>
-      <h1 class="text-white text-center text-xl">Wolves in Trading <br>Forex Academy</h1>
-    </div>
+  </div> 
 
-    <div class="offcanvas offcanvas-end" id="demo">
-      <div class="offcanvas-header">
-        <h1 class="offcanvas-title" style="display: flex; justify-content: center;">More Info !!!</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-      </div>
-      <div class="offcanvas-body">
-        <p>Some text lorem ipsum.</p>
-        <p>Some text lorem ipsum.</p>
-        <p>Some text lorem ipsum.</p>
-        <button class="btn btn-secondary" type="button">A Button</button>
-      </div>
-    </div>
+  <style>
+    nav > a {
+      text-decoration: none;
+      display: inline-block;
+      background-size: cover;
+      padding: 9px; 
+      border-width: 8px;
+      border-style: solid;
+      border-color: blueviolet;
+      font-size: 35px; 
+      margin-right: 30px;
+      margin-top: -20px;
+      border-radius: 10px 25px;
+      transition: 0.5s;
+    }
+
+    .nav:hover{
+      background-color: aqua;
+      text-decoration: underline;
+      padding: 15px;
+      transform: rotateY(360deg) ;
+    }
+
+    #land:active{
+      background-color: aqua;
+      text-decoration: underline;
+
+    }
+
+/*  .... Drop down Mwnu Style, Logics And Position......  */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 8px;
+      position: absolute; 
+    }
+
+    .dropdown-content a {
+      text-decoration: none;
+      display: block;
+      background-size: cover;
+      padding: 5px; 
+      border-color: blueviolet;
+      font-size: 35px; 
+      width: 400px;
+      box-shadow: 0px 9px 18px 0px rgba(0,0,0,0.2);     
+    }
+
+    .dropdown-content a:hover {background-color: #c2c2c2}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }  
+
+  </style>
     
-    
-    <nav class="navbar navbar-expand-sm navbar-dark bg-bark " id="navbar">
-        <div class="container bg-dark rounded-pill "> 
-          <a class="navbar-brand navbar-dark float-start " href="#"> 
-            <img class="float-start" src="wolves images/logo.png" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar" >
-            <ul class="navbar-nav float-end justify-content-end">
-              <li class="nav-item nav-item-lg bg-primary rounded"> <a class="nav-link" href="#" style="color: white;"> MasterClass</a> </li>
-              <li class="nav-item " style="height:50px;" > <a class="nav-link" href="#" style="color: white;">MentorShip</a> </li>
-              <li class="nav-item bg-primary rounded"> <a class="nav-link" href="#" style="color: white;">Trade Signals</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#" style="color: white;">Book a Session</a> </li>
-              <li class="nav-item bg-primary rounded"> <a class="nav-link" href="#" style="color: white;">Free Resourses</a> </li>
-              <li class="nav-item rounded-pill bg-white  " style="border-radius:3px; border-color:blue; color: blue; border-style: solid;"> 
-                <a class="nav-link" href="#" style="color: blue;"  data-bs-toggle="offcanvas" data-bs-target="#demo" > <b> Book a Session</b></a> 
-              </li>
-            </ul>
-          </div>
+  <div style="position: sticky; top: 1px; align-items: center; width: 95%; margin-left: 2.5%;
+              margin-top: -45px;">
+    <div>
+      
+    </div>          
+    <nav style="font-size: 30px; text-align: center; background-color: rgb(195, 196, 250); font-style: normal;
+    padding: 30px;  border-radius:10px; font-family: Arial, Helvetica, sans-serif;
+    align-items: center; box-shadow: 3px 3px 3px 5px blue; height: 35px; 
+    position: sticky; top: 2px;">
+
+      <div class="dropdown">
+        <img src="menu.png" alt="menu icon" style="float: left; width: 100px; height: 90px; display: block;
+        text-align: center;  margin-top: -20px; cursor: pointer; position: relative;" class="dropbtn">
+        <div class="dropdown-content">
+          <a href="#home" class="nav" id="land" >Home </a>
+          <a href="#C2" class="nav" >Projects</a>
+          <a href="#" class="nav" >About</a>
+          <a href="#" class="nav" >Hire me</a> 
         </div>
-    </nav>
-    <div id="carddiv" class="row  pt-3 "  >
-       <div class="col-md-2  " style="padding-left: 50px;">
-         <h1 style=" display: flex; justify-content: center; color: white; font-weight: lighter; "> <u> Get Started Now : </u> </h1> <br>
-         <h2 style="color: white; font-weight: 350;"><b>Choose How You Want To Earn With Our Team &#8658; </b></h2>
-       </div>
-       <div class="col-md-5" data-bs-toggle="tooltip"  data-bs-placement="bottom" title="Click Card for More!!">
-        <a href="#" style=" display: flex; justify-content: center;"> <img src="wolves images/card.png" alt="card image" style="width: 95%;"></a>
-        <p id="cardpara1"> <span style="color: blue; font-weight: bolder;"> New to Trading? </span> 
-          Our Mentorship program takes you through a unique path 
-          of becoming a professional Forex Trader/Financial Analyst.
-          <span style="color: blue; font-weight: bolder;">Learn More about Mentorship__ </span> 
-        </p>
-       </div>
-       <div class="col-md-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click Card for More!!" data-bs-content="hello world" style="display: block;">
-        <a href="#" style="display: flex; justify-content: center;"> <img src="wolves images/card2.png" alt="card image" style="width: 95%;"></a>
-        <p id="cardpara2"> <span style="color: blue; font-weight: bolder;">Are you a Newbie?</span> Get ahead of the Financial Markets with Habby Trade Signals 
-          - sniper Entries and on-point Trade Analysis.
-          <span style="color: blue; font-weight: bolder;">Learn more about Trade Signals__</span> 
-        </p>
-       </div> 
-    </div>
-    <div id="bg3 " >
-      <img class="img-fluid" src="wolves images/bg3.png" alt=" background image" style="position: absolute; ">
-      <div class="row" style="position: absolute; width: 100%; height: 100%; ">
-          <div class="col-md  ps-5 " style="color: white; padding-top: 20px;" >
-            <img src="wolves images/logo.png" alt="">
-            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px;" >
-              MentorShip
-            </h1>
-            <p style="text-indent: 10px; font-size: 25px; font-weight: lighter; opacity: 0.8;" >
-              Join our unique Lifetime Mentorship Program for an:__
-            </p>
-            <div style="display: flex;justify-content: center;">
-              <ol style="list-style: disc; ">
-                <li>Intensive One (1) Month Training</li>
-                <li>option incurs a One-time Fee Only</li>
-                <li>Beginner To Masterclass Course</li>
-                <li>Access to Previously Recorded Training Sessions</li>
-                <li>Eligible To Apply For a $10,000 USD Funded Account After Training</li>
-                <li>Earn a Trading Masterclass Certificate</li>
-              </ol>
-            </div>
-          </div>
-          <div class="col-md " >
-            <a href="#" title="Join The In-class Sessions"><img class="p-4" src="wolves images/classcard.png" alt="online class" id="classcard"></a>
-          </div>
-          <div class="col-md " >
-            <a href="#" title="Join The Online Class">
-              <img class="p-4" src="wolves images/classcard.png" alt="online class" id="classcard">
-            </a>
-          </div>
       </div>
-    </div>
+        <a href="#home" class="nav" id="land" >Home </a>
+        <a href="#C2" class="nav" >Projects</a>
+        <a href="#" class="nav" >About</a>
+        <a href="#" class="nav" >Hire me</a>       
+    </nav>
+  </div>
+
+     
+    <h2 style="color: rgb(195, 196, 250); display: flex; align-items: center; flex-direction: column;
+    text-decoration-line: underline; text-decoration-style: double; text-decoration-color: white;
+    font-size: 6vw; font-family: Georgia, serif;
+     "> My Journey to Programming</h2>
+        
+        <p class="para" style="padding-left: 5px; color: white;  text-align:justify;
+        text-indent: 10px; letter-spacing: 1px; line-height: 50px;"> 
+            hello guys, my name is abdullahi aaron and i am a computer programmer, this website will give you all the details about me     
+        
+        </p>
+        
+        <style>
+          ::marker { 
+            color: blue;
+            font-size: 23px;
+          }
+          </style>
+        
+        <h2 style="color: rgb(195, 196, 250); text-align: unset; padding-left: 20px;" 
+        class="heads" > <b> <u>
+            Skills
+        </u> </b> </h2>
+        <!--<ol> is an Ordered List-->
+
+        <style> 
+          .backgif {
+            z-index: 0;
+            resize: both;
+            width: 170px;
+            height: 170px;
+            position: relative;
+            left: 80px;
+            animation-name: backanime;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease;
+          }
+          
+          @keyframes backanime {
+            0%   { left:0px; top:0px;}
+            25%  {left:800px; top:0px;}
+            50%  { left:800px; top:600px;}
+            75%  { left:0px; top:600px;}
+            100% { left:0px; top:0px;}
+          }
+
+          
+        </style>
+
+        <div style="color: white;">
+          <img src="robogif.gif " 
+          alt="gif apear here"  class="backgif">
+          <ol class="list" style="color: white; text-align: unset ; font-family: Arial, Helvetica, sans-serif; 
+          font-size: 25px; position: relative;
+          padding-left: 110px;">
+            <li class="list" >Python</li>
+            <li class="list" >Django</li>
+            <li class="list" >MYSQL&nbsp;Database</li>
+            <li class="list" >HTML</li>
+            <li class="list" >CSS</li>
+            <li class="list" >Java</li>
+          </ol>
+        </div>
+
+        <style>
+          p::first-letter{
+            color: blue;
+            font-size: 50px;
+          }
+
+          .opacy{
+            opacity: 0.8;
+          }
+
+          .opacy:hover{
+            opacity: 1.0;
+            filter: saturate(1);
+          }
+
+          .opacy2{
+            opacity: 0.8;
+          }
+
+          .opacy2:hover{
+            opacity: 1.0;
+            filter: saturate(10);
+            cursor: pointer;
+          }
+
+          .opacy3{
+            opacity: 0.8;
+          }
+
+          .opacy3:hover{
+            opacity: 1.0;
+            filter: saturate(1);
+          }
+          
+        </style>
+
+          <h2 id="C2" style="color: rgb(195, 196, 250); text-align: unset;  margin-top: 100px; "
+          class="heads" ><u><b>
+              Projects
+            </b></u></h2>
+
+          <div class="para" style=" padding: 20px;
+        border-color: aliceblue;border-width: 3px 3px 3px 3px; border-style: solid; border-radius: 10px;">
+            <h3 style="color: white;;"
+            class="subhead"><u><b>
+                1.Youtube Channel
+                </b></u></h3>
+            <p style="color: white; padding: 25px; margin-top: 30px;  
+            text-indent: 10px; letter-spacing: 1px; line-height: 50px;">
+              My first Technology Project Was to Create and Build A successfull Youtube Channel 
+              for Tutorials on Technology Which now Provides Help To The Public
+              Check It Out :<a id="link" href="https://youtube.com/c/AaronTechandGaming" title="View Youtube channel and subcribe" target="_blank">Here</a> 
+            </p> <br/>
+          
+            <iframe src="yt2.png" frameborder="1" title="Youtube Channel"
+              style="margin-left: auto; margin-right: auto; height: 400px; width: 800px; display: block;
+               text-align: center; border-radius: 5px; box-shadow: 3px 3px 3px 3px black; border-color: white;
+               border-width: 5px; resize: both;
+               " class="opacy">
+            </iframe>
+
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/rMNB-z7i0qE" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            style="margin-top: 30px; display: block;
+            margin-left: auto; margin-right: auto; text-align: center;" class="opacy2" allowfullscreen ></iframe>
+          </div>          
+            
+      <div style="padding: 20px; border-color: aliceblue;
+      border-width: 0px 3px 3px 3px; border-style: solid; border-radius: 10px;">
+        <h3 style="color: white; "
+        class="subhead"><u><b>
+          2.Password Generator 
+        </b></u></h3>
+
+        <style>
+          .para {
+            overflow: auto;
+          }
+          .overlay {
+            z-index: 2;
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color: #008CBA;
+            overflow: hidden;
+            width: 100%;
+            height: 0%;
+            opacity:0;
+            transition: 1s ease;
+          }
+
+          .contain:hover .overlay {
+            bottom: 0%;
+            height: 100%;
+            width: 100%;
+            opacity:1;
+          }
+
+
+          </style>
+ 
+        <div class="para" style=" color: white; padding: 25px; margin-top: 30px;  
+        text-indent: 10px; letter-spacing: 1px; line-height: 50px;">
+
+          <div style="float: right; width: 300px; height: 250px; border-radius: 7px; border-color: white;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); border-width: 2px; border-style: solid; 
+          position: relative; z-index: 0; overflow: hidden; " class="contain">
+            <img src="https://miro.medium.com/max/1400/1*KDUWoSI8R4I4VKTgHtSacQ.png" 
+            alt="Image Will Display Here" class="opacy3" style="width:300px; height: 250px; margin-left: -10px;
+            display: block;z-index: 1;   "> 
+            <div class="overlay" > By Aaron Tech</div>
+          </div>
+          My first Technology Project Was to Create and Build A successfull Youtube Channel 
+          for Tutorials on Technology Which now Provides Help To The Public
+          Check It Out :
+
+        </div>
+      </div>    
+       
+       <h1 id="why" style="text-decoration-line: underline; text-decoration-style:double; text-decoration-color: rgb(255, 255, 255);
+       text-decoration-thickness: 2px;  " >Daily Activites</h1>
+       <style>
+         table,th, td {
+          border: 1px solid rgb(255, 255, 255);
+          background-color: rgb(118, 138, 248);
+         }
+         table{
+          border-spacing: 12px;
+          border-radius: 25px;
+         }        
+         th,td{
+          border-radius: 10px 25px;
+          text-align: center;
+         }
+         th:hover,td:hover{
+          background-color: rgb(0, 38, 253);
+         }
+       </style>
+       <table style="width: 100%; text-transform: uppercase; ">
+        <caption style="color: rgb(255, 255, 255); text-decoration-style: double; text-decoration-color:
+         white;">The Table Below Dispalys The Data For My Daily Activities</caption>
+         <th style="background: green;" >Activities</th>
+         <th style="background: green;" >Time</th>
+         <tr>
+           <td>Choirs</td>
+           <td> 8am - 11am</td>
+         </tr>
+         <tr>
+          <td style="border-radius: 100px;">Reading</td>
+          <td>11am - 2pm</td>
+        </tr>
+        <tr>
+          <td>Coding</td>
+          <td>10pm - 2am</td>
+        </tr>
+       </table>
+
+       <style>
+         .cool{
+           text-shadow: 50px black;
+           text-align: center;
+           color: white;
+           background-image: linear-gradient(to right ,red,darkorange,yellow,blue,green,indigo);
+           padding: 10px;
+           margin: 10px;
+           border-radius:30px;
+           border:20px  solid black;
+         }
+       </style>
+       <style>
+         #why{
+           text-align: center;
+           color: blanchedalmond;
+         }
+       </style>
+
+        <style>
+          #click{
+            color: blue;
+            width: 200px;
+            height: 45px;
+            font-family: Open sans-serif;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-radius: 5px;
+            border-width: 3px;
+            border-color: blue;
+            transition: 0.3s;
+          }
+
+          .tooltiptext{
+            visibility: hidden;
+            width: 180px;
+            height: 30px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 18px;
+            display: inline-block;
+            position: absolute;
+            left: 58%;
+            margin-top: -15px;
+            opacity: 0;
+            transition: 1s;
+          }
+
+          .tooltip .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 100%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent black transparent transparent;
+          }
+
+        </style>
+
+      <style>
+        #click:hover{
+          background-color: blue;
+          color: white;
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+        .tooltip:hover .tooltiptext{
+          visibility: visible;
+          opacity: 0.8;
+        }
+      </style>
+
+       <h1 id="why" style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: rgb(255, 255, 255);
+       text-decoration-thickness: 2px;  " >WHY YOU SHOULD WORK WITH ME</h1>
+
+       <div class="cool" id="why1">
+         <h2>Hard Working</h2>
+         <h3>i am a devotaed to programming</h3>
+       </div>
+
+      <div style="text-align: center;">
+        <button class="tooltip" id="click" onclick="ClickFunction()">CLICK ME !!
+          <span class="tooltiptext">You will be suprised</span></button>
+
+      </div>
+
+       <div class="cool" id="why2">
+        <h2>Ready Learn More</h2>
+        <h3 style="color: white;">I am Always ready to learn more with people</h3>
+        </div>
+
+        <script>
+          function ClickFunction() {
+            document.getElementById("why2").style.backgroundColor="white";  
+            document.getElementById("why2").style.color="blue";
+            document.getElementById("why2").style.fontSize="20px"      
+            document.getElementById("why1").style.backgroundColor="black";  
+            document.getElementById("why1").style.color="White"; 
+            document.getElementById("why1").style.fontSize="20px"
+            document.getElementById("click").innerHTML="Opps!!"
+            document.getElementById("click").style.cursor="not-allowed"  
+            document.getElementById("click").style.opacity="0.5"    
+          }
+        </script>
+
+        <div style="float: left;width: 40%; margin-top: 10px; height: 150px; background-color: rgb(60, 202, 124);
+        text-align: center; font-size: 50px; overflow-x: scroll; ">
+            Remember Me By >>>
+        </div>
+
+        <div style="float: right; background-color: rgb(60, 58, 184); width: 60%; height: 150px; margin-top: 10px; 
+        font-size: 50px; overflow-y: scroll;  ">
+          Pressing <kbd>Crtl+S</kbd> Now &#128516;
+      </div> 
+      <p>
+        .
+      </p>
+
+      <div style="Display: flex; align-items: center;Flex-direction: column; ">    
+        <form style="background-color: darkcyan; margin-top: 25px; margin-left: 5px; border-radius: 30px; 
+        height: 1100px; padding-left: 42px; font-size: 20px; border-bottom: 13px  solid black; width: 85%;
+        margin-bottom: 30px;">
+
+            <video src="course.mp4" width="45%" height="50%" style=" margin-bottom: -800px; margin-left: 400px;
+        border-radius: 10px; box-shadow: rgb(2, 2, 2) 2px 8px 8px 8px; overflow-x: scroll; background-color: white;
+            " controls autoplay muted></video>  
+          
+            
+              <h2 style="text-align: center; color: rgb(255, 255, 255); font-size: 50px;"><kbd>
+                <u>Sign Up For My Online Courses</u></kbd></h2>
+            
+            <style>
+              [type=text],input[type=tel],input[type=email] {
+                margin-bottom: 5px;
+                display: block;
+                width: 40%;
+                height: 50px;
+                border-radius: 8px;
+                border-width: 5px;
+              }
+              label[for=fname],label[for=sname],label[for=email],label[for=tel],label[for=py], label[for=js],label[for=css]
+              label[for=html],label[for=male],label[for=female] {
+                font-size: 30px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              }
+
+            </style>    
+            <div >
+              <label for="fname" >First Name:</label>
+              <input type="text" id="fname" autocomplete="on" required> <br>
+
+              <label for="sname">Surname:</label>
+              <input type="text" id="sname" required> <br>
+
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" autocomplete="email" required> <br>
+
+              <label for="tel">Phone Numeber</label>
+              <input type="tel" name="tel" id="tel" autocomplete="tel" required> <br>
+              <span style="font-size: 25px; font-family: Verdana, Geneva, Tahoma, sans-serif;"><u>
+              <b>Gender:</b></u> <br>
+              <label for="male">Male</label>
+              <input type="radio" name="male" id="male" required>
+
+              <label for="female">Female</label>
+              <input type="radio" name="female" id="female" required> <br>
+
+              <span style="font-size: 25px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                <b><u>Selected Prefered Programming Language: </u></b><span> <br>
+              <label for="html" style="font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;">HTML</label> 
+              <input type="checkbox" name="HTML" id="html"> <br>
+
+              <label for="css">CSS</label> 
+              <input type="checkbox" name="CSS" id="css"  style="font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;"> <br>
+
+              <label for="js">JavaScript</label>
+              <input type="checkbox" name="JavaScript" id="js"> <br>
+
+              <label for="py">Python</label>
+              <input type="checkbox" name="Python" id="py">    
+            </div>
+
+            <style>
+              .reg:hover{
+                background-color: darkgreen;
+              }
+              .button {
+                display: block;
+                border-radius: 8px;
+                border-color: white;
+                border-width: 5px;
+                background-color: green;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 28px;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                opacity: 0.8;
+              }
+
+              .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+              }
+
+              .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+              }
+
+              .button:hover span {
+                padding-right: 25px;
+              }
+              
+              .button:hover{
+                opacity: 1;
+              }
+
+              .button:hover span:after {
+                opacity: 1;
+                right: 0;
+              }
+            </style>
+            <button class="button"> <span>Register</span></button>
+
+        </form>
+      </div>
+
+      <style>
+        .hireanime{
+          padding: 30px;
+          transition: 1.5s;
+          transition-timing-function: ease-in;
+        }
+
+        .hireanime:hover{
+          padding: 40px;
+        }
+      </style>
+      
+      <div style="Display: flex; align-items: center;Flex-direction: column; height: 700px; margin-bottom: 100px;">
+        <form  class="hireanime" style="Display: flex; align-items: center;Flex-direction: column;
+         background-color: darkcyan; margin-top: 50px; width: 55%;  
+        height: 100%; font-size: 20px; margin-bottom: 20px;  
+        box-shadow: 15px 15px cyan;   " >
+            <h2 style="text-align: center; color: rgb(255, 255, 255); font-size: 50px; padding-top: 5px;"><kbd><u>
+            Hire Me Now !!</u></kbd></h2>
 
 
 
+            <fieldset>
+              <legend>Employer info:</legend>
+
+              <label for="cname">Comany Name:</label>
+              <input type="text1" id="cname" size="auto" required> <br>
+      
+              <label for="email1">Email:</label>
+              <input type="email1" name="email" id="email"  autocomplete="email" size="auto" required> <br>
+      
+              <label for="tel1">Phone Numeber
+
+
+              </label>
+              <input type="tel1" name="tel" id="tel"  autocomplete="tel" size="auto"  required > <br> 
+              
+              <label for="homepage">Website:</label>
+              <input type="url" id="homepage" name="homepage" size="auto"  placeholder="Optional" >
+            </fieldset>
+
+            <label for="location">Job Location:</label>
+            <select name="job" id="job">
+              <option value="Remote">Remote</option>
+              <option value="On-Site">On-Site</option> <br>
+            </select> <br>
+            
+            Job Description: <br>
+        
+            <textarea name="Description" id="desc" cols="26" rows="7" style="margin-left: 35px;"></textarea> <br>
+            <label for="date">Starting Date:</label>
+            <input type="date" name="date" id="date">  
+
+            <button  class="button2" onclick="alert('THANKS FOR HIRING ME!!')">
+              HIRE NOW</button>
+ 
+            <style>
+              .button2{
+                display: block;
+                padding: 15px 25px;
+                font-size: 24px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: #fff;
+                background-color: #4CAF50;
+                border-radius: 10px;
+                box-shadow: 0 9px #999;
+                margin-top: 15px;
+                border-color: white;
+                border-width: 3px;
+              }
+
+              .button2:hover {
+                background-color: #3e8e41;
+                text-decoration: underline;
+              }
+
+              .button2:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+              }
+              
+            </style>
+        </form>
+      </div>
+      <style> 
+      .card {
+        box-shadow: 0 12px 24px 0 black;
+        transition: 2s;
+        width: 90%;
+        height: 280px;
+        Display: flex;
+        align-items: center;
+        Flex-direction: column;
+        background-image: radial-gradient(circle , red,darkorange,yellow,green,blue,indigo,violet); 
+        justify-content: center;
+        border-radius: 0%;
+        text-align: center;
+        margin-top: 2%;
+        border-radius: 10px;
+        }
+        
+        .card:hover {
+          cursor: pointer;
+          box-shadow: 0 16px 32px 0 black;
+          width: 60%;
+          height: 320px;
+        }
+      </style>
+      
+      <div style="Display: flex; align-items: center; flex-direction: column; ">
+      <div class="card">
+        <form action="/action_page.php"
+          oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+          <h2 style="margin-left: 5px; color: rgb(255, 255, 255);">RATE MY WEBSITE</h2>
+          <input type="range"  id="a" name="a" value="0" style="font-size: 50px;">
+          <u>100 +</u>
+          <input type="number" id="b" name="b" value="0">
+          =
+          <output name="x" for="a b"  style="font-size: 60px;"></output> <span style="font-size: 25px;">%</span>
+          <br><br>
+          <input type="button" style="font-size: 25px;" value="Submit" onclick="alert('THANKS FOR RATING THE SITE,Love You!!')">
+          <input type="reset" value="Reset" style="font-size: 25px;" >
+        </form>  
+      </div>
+      </div>
+
+      <style>
+        #canvas1{
+          align-self: center;
+          align-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          background-color: rgb(255, 255, 255);
+          border-radius: 15px;
+          box-shadow: black 0px 10px 5px 0px;
+          margin-top: 15px;
+        }
+      </style>
+
+      <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+
+        // Create gradient
+        var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+        grd.addColorStop(0, "red");
+        grd.addColorStop(1, "white");
+
+        // Fill with gradient
+        ctx.fillStyle = grd;
+        ctx.fillRect(10, 10, 150, 80);
+      </script>
+
+      <style>
+        #music{
+          align-items: center;
+          display:flex;
+          flex-direction: column;
+          font-size: 80px;
+        }
+      </style>
+
+      <style>
+        @keyframes backgroundColorPalette {
+          0% {
+            background: red;
+          }
+          25% {
+            background: blue;
+          }
+          50% {
+            background: green;
+          }
+          75% {
+            background: rgb(255, 255, 87);
+          }
+          100% {
+            background: #9b5f52;
+          }
+        }
+
+      @-webkit-keyframes backgroundColorPalette {
+        0% {
+          background: red;
+        }
+        25% {
+          background: blue;
+        }
+        50% {
+          background: green;
+        }
+        75% {
+          background: rgb(255, 255, 87);
+        }
+        100% {
+          background: #9b5f52;
+        }
+      }
+
+      #change{
+        background-color: darkcyan;
+        align-items: center; display: flex; flex-direction: column;
+        width: 100%; height: 380px; margin-top: 20px;   
+        animation-name: backgroundColorPalette;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+
+      }
+      
+      </style>
+
+      <div id="change" style="margin-top: 30px; ">
+        <h2 style="text-align: center; color: white; font-family: 'Ubuntu', sans-serif; padding-top: 10px;
+        font-size: 40px;" ><u>THANKS FOR VIEWING </u></h2>
+        <img src="head.png" alt="music icon" class=".material-symbols-outlined " style="align-items: center;
+        display: flex; flex-direction: column; width: 20%; height: 150px;" >
+        <audio src="lil.mp3"controls id="music"></audio>
+        <figcaption style="font-size: 30px; font-family: 'Anonymous Pro', monospace;
+        font-family: 'Ubuntu', sans-serif;" >Please Enjoy This Songs</figcaption>
+      </div>
 
 
 
-    <script>
-      // Initialize tooltips
-      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-      })
-      </script> 
-    <script>
-      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl)
-      })
-      </script>    
+      <div style="float: left;">
+      <svg width="200" height="200" >
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style=" fill:rgb(48, 22, 199);stroke:rgb(0, 128, 11);stroke-width:5;fill-rule:evenodd; margin-left: 80%; ">
+      </svg>
+      </div>
+
+      <style>
+        .creditshead{
+          text-decoration: underline;
+          font-family: Sofia, sans-serif;
+        }
+        .credits{
+          column-count: 3;
+          column-gap: 40px;
+          column-rule-color: #fff;
+          column-rule-style: solid;
+          column-width: 7px;
+        }
+
+        @media screen and (max-width: 700px) {
+          .credits{
+            column-count: 1;
+          }
+        }
+      </style>
+
+      <style>
+        .flex-container{
+          box-sizing: border-box;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: dodgerblue;
+          flex-wrap: wrap;
+        }
+
+        .flex-container > div {
+          background-color: #f1f1f1;
+          width: 50px;
+          height: 50px;
+          border-radius: 3px;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
+        }
+      </style>
+
+
+      <footer style=" margin-top: 40px;">
+        &copy; Copyright claims &copy;</br> 
+        &reg;Fully Registered &reg;
+        
+        <h1 class="creditshead">Credits Go To :</h1>
+        <div class="credits">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+        </div>
+
+        <div class="flex-container">
+          <div> &#8656; </div>
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>  
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>  
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>  
+          <div> &#8658; </div>
+        </div>
+     </footer>
+
+
 </body>
-
 </html>
