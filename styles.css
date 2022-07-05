@@ -82,10 +82,24 @@
 #bg3{
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
 #bg3>img{
     position: absolute;
     z-index: 0;
     width: 100%;
 }
+#classcard {
+    border-radius: 10px;
+    height: 430px;
+    /* Add shadows to create the "classcard" effect */
+    box-shadow: 0 2px 4px blue;
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+#classcard:hover {
+    height: 450px;
+    box-shadow: 0 4px 8px blue;
+}
+  
