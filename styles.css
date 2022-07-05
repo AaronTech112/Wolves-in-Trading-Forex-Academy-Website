@@ -81,6 +81,5 @@
 #bg3>img{
     position: absolute;
     z-index: 0;
-    height: 1000px;
     width: 100%;
 }
