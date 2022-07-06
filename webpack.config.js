@@ -1,3 +1,6 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path')
+
 module.exports = {
     entry: path.join(__dirname, "src", "index.js"),
     output: {
@@ -31,6 +34,9 @@ module.exports = {
         ]
     },
     plugins: [
-
+        new HtmlWebpackPlugin({
+            title: "wolves trade",
+            template: path.join(__dirname, "src", "index.html")
+        })
     ]
 }
