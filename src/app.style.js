@@ -1,4 +1,11 @@
-import GlobalStyle,{ styled }  from 'style-components'
+import styled, { createGlobalStyle  }  from 'styled-components'
 
-
-export const AppContainer = styled.div``
+export const GlobleStyled = createGlobalStyle`
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+`
+export const AppContainer = styled.div`
+`

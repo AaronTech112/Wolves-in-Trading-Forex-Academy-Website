@@ -1,9 +1,10 @@
 import React from 'react'
-import { AppContainer } from './app.style'
+import { AppContainer, GlobleStyled} from './app.style'
 function App() {
   return (
       <AppContainer>
-          App
+          <GlobleStyled />
+          <h1>App</h1>
     </AppContainer>
   )
 }
