@@ -84,7 +84,7 @@
     height: 550px;
     border-bottom-color: green;
     border-bottom-style: dashed;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
 }
 
 #bg3>img{
@@ -140,6 +140,10 @@
     font-weight: bold;
     box-shadow: 0px 4px 8px 0px black;
 }
+#resource{
+    display: flex;
+    justify-content: center;
+}
 
 
 @media screen and (max-width:700px){
@@ -160,6 +164,7 @@
     }
     #master{
         height: 280px;
+        margin-top: 20px;
     }
     #levi{
         margin-top: 20px;
@@ -172,6 +177,9 @@
         height: 40px;
         padding-top: 5px;
         font-size: 15px;
+    }
+    #carddiv{
+        margin-bottom: 20px;
     }
 
 }
