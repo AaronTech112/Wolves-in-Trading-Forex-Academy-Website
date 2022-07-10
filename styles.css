@@ -182,6 +182,13 @@
     #carddiv{
         margin-bottom: 20px;
     }
+    #revimg{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        float: none;
+    }
 
 }
   
