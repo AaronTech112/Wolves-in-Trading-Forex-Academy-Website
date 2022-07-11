@@ -3,10 +3,12 @@ import styled from 'styled-components'
 import withReveal from 'react-reveal/withReveal'
 import Fade from 'react-reveal/Fade'
 export const HeaderContainer = withReveal(styled.div`
+position: absolute;
     width: 100%;
     height: 50px;
     border-radius: 0px 0px 40px 40px;
 background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(${props => props.bg});
+
 
 `, <Fade top/>)
 
