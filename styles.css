@@ -145,6 +145,19 @@
     display: flex;
     justify-content: center;
 }
+#infocard{
+    margin-top: -90px; 
+    width: 70%; 
+    height: 390px; 
+    transition: 1.5s; 
+}
+#infocard:hover{
+    box-shadow: 0px 8px 16px 0px rgb(65, 65, 65);
+    width: 80%;
+    height: 410px;
+    cursor: pointer;
+    transform: rotateZ(360deg);
+}
 
 
 @media screen and (max-width:700px){
@@ -188,6 +201,10 @@
         margin-right: auto;
         justify-content: center;
         float: none;
+    }
+    #infocard{
+        width:90%;
+        height: 380px;
     }
 
 }
