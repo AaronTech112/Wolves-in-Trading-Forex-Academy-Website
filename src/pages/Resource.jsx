@@ -1,8 +1,12 @@
 import React from 'react'
+import styled from 'styled-components'
 
-function Resource() {
+const ResourceContainer = styled.div``
+function  Resource() {
   return (
-    <div>Resource</div>
+    <ResourceContainer>
+      <h1>This Resource page</h1>
+    </ResourceContainer>
   )
 }
 

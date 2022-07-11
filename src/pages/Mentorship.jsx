@@ -1,8 +1,12 @@
-import React from 'react'
+// import React from 'react'
+import styled from 'styled-components'
 
+const MentorshipContainer = styled.div``
 function Mentorship() {
   return (
-    <div>Mentorship</div>
+    <MentorshipContainer>
+      <h1>This Mentorship page</h1>
+    </MentorshipContainer>
   )
 }
 

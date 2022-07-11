@@ -1,8 +1,12 @@
 import React from 'react'
+import styled from 'styled-components'
 
+const SignalsContainer = styled.div``
 function Signals() {
   return (
-    <div>Signals</div>
+    <SignalsContainer>
+      <h1>This Signals page</h1>
+    </SignalsContainer>
   )
 }
 
