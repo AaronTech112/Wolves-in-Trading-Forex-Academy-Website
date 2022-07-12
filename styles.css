@@ -203,9 +203,20 @@
         float: none;
     }
     #infocard{
-        width:90%;
+        width:75%;
         height: 380px;
     }
-
+    #infocard:hover{
+        width: 80%;
+        height: 410px;
+        cursor: pointer;
+        transform: rotateZ(360deg);
+    }
+    #map{
+        height: 90px;
+    }
+    #maptext{
+        font-size: small;
+    }
 }
   
