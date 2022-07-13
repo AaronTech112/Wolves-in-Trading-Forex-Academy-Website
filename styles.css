@@ -213,7 +213,7 @@
         transform: rotateZ(360deg);
     }
     #map{
-        height: 90px;
+        height: 45px;
     }
     #maptext{
         font-size: small;
