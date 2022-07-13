@@ -214,6 +214,7 @@
     }
     #map{
         height: 45px;
+        width:95%;
     }
     #maptext{
         font-size: small;
