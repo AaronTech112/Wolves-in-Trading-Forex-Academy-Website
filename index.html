@@ -12,20 +12,66 @@
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
       return new bootstrap.Tooltip(tooltipTriggerEl)
     })
-    </script>
+  </script>
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: blue; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: blue; 
+    }
+  </style>
 </head>
 
 <body style="background-color: black; overflow-x: hidden;" >
     <div  class=" container-fluid p-1 text-white text-center text-capitalize text-small" id="top">
       <img src="wolves images/logo.png" alt="logo" class="float-start" id="logo"> 
       <img src="wolves images/social.png" alt="icons" class="float-end" id="logo2">  
-      <p id="topgraph" > Call Support :<code class="text-white">+2348130774481</code> or email us:<a id="link" href="https://wolesintrading@gmail.com" class="text-white">  <code id="link" class="text-white"> wolvesintrading@gmail.com </code></a>
+      <p id="topgraph" > Call Support :<code class="text-white">+2348130774481</code> or email us:<a id="link" href="" class="text-white">  <code id="link" class="text-white"> wolvesintrading@gmail.com </code></a>
       </p>
     </div>
     <div id="bg2">
-      <img class="img-fluid img-responsive text-center" src="wolves images/bg2.png" alt="backimage" style="position: sticky;">
-      <p class="text-white text-center "> <i>With Sniper Entry Trading Strategy, <br> forever stuck in profit___ </i></p>
-      <h1 class="text-white text-center text-xl">Wolves in Trading <br>Forex Academy</h1>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="position: relative; height: 680px; width: 100%;">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img id="caroimg" src="wolves images/bg2.png" class="d-block " alt="..." >
+          </div>
+          <div class="carousel-item">
+            <img id="caroimg" src="wolves images/bg3.png" class="d-block" alt="..." >
+          </div>
+          <div class="carousel-item">
+            <img id="caroimg" src="wolves images/bg5.png" class="d-block w-100" alt="..." >
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+      <p class="text-white text-center"> <i>With Sniper Entry Trading Strategy, <br> forever stuck in profit___ </i></p>
+      <h1 class="text-white text-center">Wolves in Trading <br>Forex Academy</h1>
     </div>
 
     <div class="offcanvas offcanvas-end" id="demo">
@@ -205,12 +251,11 @@
       </p>
       <p class="text-center mx-auto text-white" style="font-size: smaller; margin-top: -15px; " > 
         <span style="font-weight: 800;">Developed by</span>  
-        <a href="" style="text-decoration: none; color:white; opacity:0.9; font-style: italic; font-weight: lighter;" > Aaron Tech</a>
+        <a href="https://linktr.ee/aarontech" target="_blank" title="Contact The Developer Of This Site" style="text-decoration: none; color:white; opacity:0.9; font-style: italic; font-weight: lighter;" > Aaron Tech</a>
       </p>
-    </div>                                                             
-
-  
+    </div> 
     
+  
     <script>
       // Initialize tooltips
       var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
