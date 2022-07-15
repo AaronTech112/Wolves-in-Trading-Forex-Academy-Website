@@ -92,7 +92,45 @@
 #navround{
     border-radius: 100px;
 }
+#navhov1{
+    background-color: #0275d8;
+    color: white;
+    transition: 0.2s;
+}
+#navhov2{
+    color: white;
+    transition: 0.2s;
+}
 #navhov1:hover{
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0);
+    color: #0275d8;
+    border-color: #0275d8;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    transform: rotateY('360deg');
+}
+#navhov2:hover{
+    font-weight: bold;
+    color: #0275d8;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+#navhov3{
+    font-weight: normal;
+    border-radius:1px; 
+    border-color:#0275d8; 
+    color: #0275d8; 
+    border-style: solid;
+}
+#navhov3:hover{
+    border-radius:1px; 
+    border-color:white; 
+    color: #0275d8; 
+    border-style: solid;
     font-weight: bold;
 }
 #cardpara1{
