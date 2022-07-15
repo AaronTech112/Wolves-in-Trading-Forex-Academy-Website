@@ -19,6 +19,19 @@
     height: 20px;
     display: inline;
 }
+#carouselExampleCaptions{
+    position: relative;
+    height: 650px;
+    width: 100%;
+}
+#carocap1{
+    margin-top: -180px; 
+    margin-left:-300px 
+} 
+#carocap2{
+    margin-top: -180px; 
+    margin-left:10px 
+} 
 #bg2{
     margin-top: -15px;
     height: 700px;
@@ -176,15 +189,26 @@
 }
 
 @media screen and (max-width:700px){
+    #carouselExampleCaptions{
+        height: 480px;
+    }
+    #carocap1{
+        margin-left: -5px;
+        margin-top: -150px;
+    } 
+    #carocap2{
+        margin-left: 10px;
+        margin-top: -150px;
+    }   
     #bg2{
         margin-top: -15px;
-        height: 450px;
+        height: 500px;
         width: 100%;
         position: relative;
         text-align: center;
     }
     #caroimg{
-        height: 550px;
+        height: 500px;
         width: 100%;
     }
     #bg2>p{
