@@ -205,7 +205,7 @@
     }
     #topgraph{
         display: inline;
-        font-size: 8px;
+        font-size: 3px;
     }
     #link:hover{
         color: blue;
@@ -222,7 +222,7 @@
         display: inline;
     }
     #carouselExampleCaptions{
-        height: 480px;
+        height: 520px;
     }
     #carocap1{
         margin-left: -5px;
@@ -288,6 +288,7 @@
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 0;
+        height: 50px;
     }
     #master{
         height: 280px;
@@ -295,7 +296,7 @@
     }
     #levi{
         margin-top: 20px;
-        position: absolute;
+        position: abxsolute;
     }
     #signup{
         top: 150px;
