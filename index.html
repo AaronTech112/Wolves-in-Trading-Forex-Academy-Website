@@ -84,14 +84,40 @@
 
     <div class="offcanvas offcanvas-end" id="demo">
       <div class="offcanvas-header">
-        <h1 class="offcanvas-title" style="display: flex; justify-content: center;">More Info !!!</h1>
+        <h1 class="offcanvas-title" style="display: flex; justify-content: center;">Book A Session With Levi</h1>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
       </div>
       <div class="offcanvas-body">
-        <p>Some text lorem ipsum.</p>
-        <p>Some text lorem ipsum.</p>
-        <p>Some text lorem ipsum.</p>
-        <button class="btn btn-secondary" type="button">A Button</button>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Please Enter Your Full Legal Name.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <script>
+            var dateTimePicker = CardService.newDatePicker()
+              .setTitle("Enter the date.")
+              .setFieldName("date_field")
+              // Set default value as Jan 1, 2018 UTC. Either a number or string is acceptable.
+              .setValueInMsSinceEpoch(1514775600)
+              .setOnChangeAction(CardService.newAction()
+                  .setFunctionName("handleDateTimeChange"));
+          </script>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </div>
     
@@ -106,13 +132,13 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar" >
             <ul class="navbar-nav float-end justify-content-center">
-              <li class="nav-item m-1  nav-item-lg bg-primary rounded" id="navhov1"> <a class="nav-link text-center p-2" href="#" style="color: white;"> MasterClass</a> </li>
-              <li class="nav-item m-1  " style="height:50px;" > <a class="nav-link text-center p-2" href="#" style="color: white;">MentorShip</a> </li>
-              <li class="nav-item m-1  bg-primary rounded" id="navhov1"> <a class="nav-link text-center p-2" href="#" style="color: white;">Trade Signals</a> </li>
-              <li class="nav-item m-1 "> <a class="nav-link text-center p-2" href="#" style="color: white;">Book a Session</a> </li>
-              <li class="nav-item  m-1 bg-primary rounded" id="navhov1"> <a class="nav-link text-center p-2" href="#" style="color: white;">Joins Alpha Traders Club</a> </li>
-              <li class="nav-item m-1  rounded-pill bg-white  " style="border-radius:2px; border-color:blue; color: blue; border-style: solid;"> 
-                <a class="nav-link text-center p-2" href="#" style="color: blue;"  data-bs-toggle="offcanvas" data-bs-target="#demo" > <b> Our Broker</b></a> 
+              <li class="nav-item m-1  nav-item-lg rounded" id="navhov1"> <a class="nav-link text-center p-2" href="#" style="color: white;"> MasterClass</a> </li>
+              <li class="nav-item m-1  " id="navhov2" style="height:50px;" > <a class="nav-link text-center p-2" href="#" style="color: white;">MentorShip</a> </li>
+              <li class="nav-item m-1   rounded" id="navhov1"> <a class="nav-link text-center p-2" href="#" style="color: white;">Trade Signals</a> </li>
+              <li class="nav-item m-1 " id="navhov2"> <a class="nav-link text-center p-2" href="#" style="color: white;" data-bs-toggle="offcanvas" data-bs-target="#demo">Book a Session</a> </li>
+              <li class="nav-item  m-1 rounded" id="navhov1"> <a class="nav-link text-center p-2" href="#" style="color: white;">Joins Alpha Traders Club</a> </li>
+              <li class="nav-item m-1  rounded-pill bg-white text-primary " id="navhov3"  > 
+                <a class="nav-link text-center p-2 text-primary" title="Contact Our Broker" target="_blank" href="https://anzocapital.com/ng/"   > <b> Our Broker</b></a> 
               </li>
             </ul>
           </div> 
