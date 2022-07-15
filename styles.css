@@ -89,6 +89,12 @@
     top: 0;
     z-index: 1;
 }
+#navround{
+    border-radius: 100px;
+}
+#navhov1:hover{
+    font-weight: bold;
+}
 #cardpara1{
     text-align: left; 
     padding: 50px; 
@@ -288,7 +294,9 @@
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 0;
-        height: 50px;
+    }
+    #navround{
+        border-radius: 20px;
     }
     #master{
         height: 280px;
