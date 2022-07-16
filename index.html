@@ -83,11 +83,12 @@
     </div>
 
     <div class="offcanvas offcanvas-end" id="demo">
-      <div class="offcanvas-header">
-        <h1 class="offcanvas-title" style="display: flex; justify-content: center;">Book A Session With Levi</h1>
+      <div class="offcanvas-header bg-primary">
+        <h1 class="offcanvas-title text-center" style="display: flex; justify-content: center; font-weight: bold; font-style: italic;">Book A Session With Levi</h1>
+        <img src="wolves images/logo.png" alt=".." class="offcanvas-title">
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
       </div>
-      <div class="offcanvas-body">
+      <div class="offcanvas-body bg-dark text-white " style="border-color: white;  ">
         <form>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Full Name</label>
@@ -103,20 +104,11 @@
             <label for="exampleInputPassword1" class="form-label">Phone Number</label>
             <input type="tel" class="form-control" id="exampleInputPassword1">
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Pick A Date</label>
+            <input type="datetime-local" class="form-control" id="exampleInputPassword1">
           </div>
-          <script>
-            var dateTimePicker = CardService.newDatePicker()
-              .setTitle("Enter the date.")
-              .setFieldName("date_field")
-              // Set default value as Jan 1, 2018 UTC. Either a number or string is acceptable.
-              .setValueInMsSinceEpoch(1514775600)
-              .setOnChangeAction(CardService.newAction()
-                  .setFunctionName("handleDateTimeChange"));
-          </script>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary mt-3 d-flex justify-center">Submit</button>
         </form>
       </div>
     </div>
