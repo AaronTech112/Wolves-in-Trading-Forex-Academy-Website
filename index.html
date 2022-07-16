@@ -88,25 +88,27 @@
         <img src="wolves images/logo.png" alt=".." class="offcanvas-title">
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
       </div>
-      <div class="offcanvas-body bg-dark text-white " style="border-color: white;  ">
-        <form class="ml-2">
+      <div class="offcanvas-body bg-dark text-white pb-3 mb-3 " style="border-color: white;  ">
+        <form class="ml-2 mb-3">
           <div class="mb-3 mt-2">
             <label for="exampleInputEmail1" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
             <div id="emailHelp" class="form-text">Please Enter Your Full Legal Name.</div>
           </div>
-          <div class="mb-3 pb-3">
+          <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="email"  required>
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" id="exampleInputPassword1">
+            <label for="phone" class="form-label">Phone Number:</label>
+            <input type="tel" id="phone" class="form-control" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <div id="telHelp" class="form-text" required>Enter Phone Number With Country Code</div>
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Pick A Date</label>
+            <label for="exampleInputPassword1" class="form-label" aria-placeholder="Click Here to Pick A Date">Pick A Date</label>
             <input type="datetime-local" class="form-control" id="exampleInputPassword1">
+            <div id="datetime-localHelp" class="form-text" >Select a Date for your Session</div>
           </div>
           <button type="submit" class="btn btn-primary mb-3 d-flex float-end float-right">Submit</button>
         </form>
@@ -124,7 +126,7 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar" >
             <ul class="navbar-nav float-end justify-content-center">
-              <li class="nav-item m-1  nav-item-lg rounded" id="navhov1"> <a class="nav-link text-center p-2" href="#" style="color: white;"> MasterClass</a> </li>
+              <li class="nav-item m-1  nav-item-lg rounded" id="navhov1"> <a class="nav-link text-center p-2" href="#master" style="color: white;"> MasterClass</a> </li>
               <li class="nav-item m-1  " id="navhov2" style="height:50px;" > <a class="nav-link text-center p-2" href="#" style="color: white;">MentorShip</a> </li>
               <li class="nav-item m-1   rounded" id="navhov1"> <a class="nav-link text-center p-2" href="#" style="color: white;">Trade Signals</a> </li>
               <li class="nav-item m-1 " id="navhov2"> <a class="nav-link text-center p-2" href="#" style="color: white;" data-bs-toggle="offcanvas" data-bs-target="#demo">Book a Session</a> </li>
