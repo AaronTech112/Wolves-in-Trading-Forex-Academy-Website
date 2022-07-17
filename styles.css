@@ -239,6 +239,9 @@
     height: 180px;
     width: 90%;
 }
+#masterimg{
+    visibility: visible;
+}
 
 @media screen and (max-width:700px){
     #top{
@@ -378,5 +381,9 @@
     }
     #maptext{
         font-size: small;
+    }
+    #masterimg{
+        display: none;
+        visibility: hidden;
     }
 }
