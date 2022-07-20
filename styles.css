@@ -182,14 +182,14 @@
 }
 #classcard {
     border-radius: 10px;
-    height: 350px;
+    height: 80%;
     /* Add shadows to create the "classcard" effect */
     transition: 0.3s;
   }
   
   /* On mouse-over, add a deeper shadow */
 #classcard:hover {
-    height: 380px;
+    height: 100%;
 }
 #startbtn{
     background-color: white;
