@@ -133,6 +133,16 @@
     border-style: solid;
     font-weight: bold;
 }
+#topcards{
+    width: 93%;
+    opacity: 0.88;
+    transition: 0.6s;
+}
+#topcards:hover{
+    opacity: 1;
+    width: 100%;
+    filter: brightness(1.2);
+}
 #cardpara1{
     text-align: left; 
     padding: 50px; 
