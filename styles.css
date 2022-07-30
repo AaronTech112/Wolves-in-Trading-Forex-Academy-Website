@@ -171,8 +171,6 @@
     position: relative;
     width: 100%;
     height: 500px;
-    border-bottom-style: dashed;
-    border-bottom-width: 1px;
 }
 
 #bg3>img{
@@ -200,7 +198,6 @@
     margin-bottom: 30px;
 }
 #startbtn{
-    background-color: white;
     color: blue;
 }
 #master{
