@@ -158,9 +158,6 @@
     color: aliceblue;
 }
 #carddiv{
-    border-bottom-color: white;
-    border-bottom-style: dotted;
-    border-bottom-width: 2px;
     border-top-color: white;
     border-top-style: dotted;
     border-top-width: 2px;
