@@ -145,16 +145,16 @@
 }
 #cardpara1{
     text-align: left; 
-    padding: 50px; 
+    padding: 20px; 
     margin-top: -30px; 
-    font-size: larger; 
+    font-size: large; 
     color: aliceblue;
 }
 #cardpara2{
     text-align: left; 
-    padding: 50px; 
+    padding: 20px; 
     margin-top: -30px; 
-    font-size: larger; 
+    font-size: large; 
     color: aliceblue;
 }
 #carddiv{
