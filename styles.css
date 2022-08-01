@@ -214,7 +214,7 @@
 #signup{
     display: flex;
     justify-content: center;
-    top: 600px;
+    top: 620px;
     color: white;
     position: relative;
     background-color: green;
@@ -402,7 +402,7 @@
         position: abxsolute;
     }
     #signup{
-        top: 210px;
+        top: 222px;
         border-width: 2px;
         width: 100px;
         height: 40px;
