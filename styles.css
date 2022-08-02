@@ -217,7 +217,7 @@
     top: 620px;
     color: white;
     position: relative;
-    background-color: green;
+    background-color: blue;
     border-color: blue;
     border-style: solid;
     border-width: 2px;
@@ -229,8 +229,8 @@
     font-weight: bold;
 }
 #signup:hover{
-    background-color: blue;
-    color: green;
+    background-color: darkblue;
+    color: blue;
     font-weight: bold;
     box-shadow: 0px 4px 8px 0px black;
 }
