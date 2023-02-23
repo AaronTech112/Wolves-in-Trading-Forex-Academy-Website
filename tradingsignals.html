@@ -91,7 +91,8 @@
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body bg-dark text-white pb-3 mb-3 " style="border-color: white;  ">
-          <form class="ml-2 mb-3">
+          <form class="ml-2 mb-3" action="https://formspree.io/f/xnqypjja"
+          method="POST">
             <div class="mb-3 mt-2">
               <label for="exampleInputEmail1" class="form-label">Full Name</label>
               <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
@@ -104,7 +105,7 @@
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Phone Number:</label>
-              <input type="tel" id="phone" class="form-control" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+              <input type="tel" id="phone" class="form-control" name="phone">
               <div id="telHelp" class="form-text" required>Enter Phone Number With Country Code</div>
             </div>
             <div class="mb-3">
@@ -188,21 +189,24 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body bg-dark" >
-              <form>
+              <form action="https://formspree.io/f/mpzedywg"
+              method="POST" class="ml-2 mb-3">
+                <div class="mb-3 mt-2">
+                  <label for="exampleInputEmail1" class="form-label text-white">Full Name</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" required>
+                  <div id="emailHelp" class="form-text">Please Enter Your Full Legal Name.</div>
+                </div>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" class="form-control" id="email" name="email"  required>
                   <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label text-white">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <label for="phone" class="form-label text-white">Phone Number:</label>
+                  <input type="tel" id="phone" class="form-control" name="phone" name="number">
+                  <div id="telHelp" class="form-text" required>Enter Phone Number With Country Code</div>
                 </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary bg-primary p-2">Processed</button>
+                <button type="submit" class="btn btn-primary mb-3 d-flex float-end float-right">Submit</button>
               </form>
             </div>
             <div class="modal-footer">
