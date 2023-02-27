@@ -304,7 +304,8 @@
 
 @media screen and (max-width:700px){
     #imgrev{
-        width: 20px;
+        height: 350px;
+        width: 75%;
     }
     #top{
         border-radius: 1px 1px 25px 25px;
